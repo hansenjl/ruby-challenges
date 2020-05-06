@@ -52,11 +52,6 @@ limit = array.length;
 
 4. Refactor your Array/Loops challenges but use each or map instead.
 5. Try this: https://www.codewars.com/kata/printer-errors/train/ruby
-6. Write a method which returns the closest power of 2 above that given number (note that the input argument may be a float). For example, 7 should return 8, 9 should return 16. 
-
-[Note: If you have trouble writing this method, let me know and I’ll show you the answer. I don’t want you spending too much time figuring it out, it is not an important concept - the second method is more important.]
-
-Now, write another method which accepts an array of ints and uses the `each` iterator to iterate through them. Call your first method for each element in the input argument to your second method, and return the first element which returns 8 from your first method. If no number in your array returns 8 from your first method, your second method should return nil. For example, an input of [3.89310757468478, 7.821400507335797, 9.489479731433272, 1.5568686481719307, 2.1051095408316267, 9.161710697584876, 8.260510582112397, 6.401621941078249, 3.0068340622025347, 1.7677903283991292] should return 2.1051095408316267. An input of [6,7,8,9] should return `nil`.
 
 
 
